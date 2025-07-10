@@ -1,3 +1,9 @@
+#Crear una función para el comando print, ya que es repetitivo
+def nuevoTema(tema):
+    print("\n----- ", tema, " -----\n")# forma 1 con caracteres de escape
+def nuevoTema2(tema):
+    print("\n----- " + tema + " -----\n")# forma 2 concatenando
+
 if __name__ == "__main__":# esto se utiliza para indicar qué línea inicia primero, ya que Python no usa main. No es obligatorio para todo solo cuando es necesario indicar un orden de inicio.
 
     print("-----Operadores aritméticos-----")#Para incluir las líneas dentro del if debemos darle espacio con el tabulador y mantener la misma distancia para las líneas que pertenezcan al Código.
@@ -35,3 +41,8 @@ if __name__ == "__main__":# esto se utiliza para indicar qué línea inicia prim
     print("Operador 'menor o igual que', 7 <= 10:", 7 <= 10)
     print("Operador 'mayor que', 7 > 10:", 7 > 10)
     print("Operador 'mayor o igual que', 7 >= 10:", 7 >= 10)
+
+#06/06/2025 VARIABLES
+#Crear Funciones
+nuevoTema("Operadores aritméticos") #usando caracteres de escape
+nuevoTema2("Operadores aritméticos") # usando concatenación
