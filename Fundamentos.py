@@ -1,5 +1,5 @@
 #Crear una función para el comando print, ya que es repetitivo.
-def nuevoTema(tema:str): #En esta función se indido el tipo de variable con fines informativos, ya que no la está definiendo como tal. Esto se concidera buenas prácticas de programación, nada más.
+def nuevo_tema(tema:str): #En esta función se indido el tipo de variable con fines informativos, ya que no la está definiendo como tal. Esto se concidera buenas prácticas de programación, nada más.
     print("\n----- ", tema, " -----\n") # forma 1 con caracteres de escape.
 def nuevoTema2(tema):
     print("\n----- "  + tema +  " -----\n") # forma 2 concatenando.
@@ -51,13 +51,13 @@ if __name__ == "__main__":# esto se utiliza para indicar qué línea inicia prim
 
 #06/06/2025 VARIABLES
 #Crear Funciones
-nuevoTema("Operadores aritméticos") 
+nuevo_tema("Operadores aritméticos") 
 nuevoTema2("Operadores aritméticos") 
 nuevoTema3("Operadores aritméticos") 
 nuevoTema4("Operadores aritméticos") 
 if __name__ == "__main__":
 
-    nuevoTema("Operadores aritméticos") #llamamos a la función "nuevoTema"
+    nuevo_tema("Operadores aritméticos") #llamamos a la función "nuevoTema"
     print("Operador suma, 7 + 10 =",7 + 10)
     print("Operador resta, 7 - 10 =",7 - 10)
     print("Operador multiplicación, 7 * 10 =",7 * 10)
@@ -68,7 +68,7 @@ if __name__ == "__main__":
     print("Operador identidad, + 7  =",+ 7 )
     print("Operador cambio de signo -7 =",-7)
 
-    nuevoTema("Operadores lógicos") #llamamos a la función "nuevoTema"
+    nuevo_tema("Operadores lógicos") #llamamos a la función "nuevoTema"
     print("  ---Operador NOT---") # Comprobación de tabla de verdad de NOT
     print("not True: ", not True )
     print("not False: ", not False )
@@ -82,7 +82,7 @@ if __name__ == "__main__":
     print("True or False:", True or False)
     print("False or True:", False or True)
     print("False or False:", False or False)
-    nuevoTema("Operadores de comparación") #llamamos a la función "nuevoTema"
+    nuevo_tema("Operadores de comparación") #llamamos a la función "nuevoTema"
     print("Operador 'igual que', 7 == 10:", 7 == 10)
     print("Operador 'distinto de', 7 != 10:", 7 != 10)
     print("Operador 'menor que', 7 < 10:", 7 < 10)
@@ -96,3 +96,41 @@ if __name__ == "__main__":
     mensaje=10
     print(mensaje)
     
+    print("--------------------------")
+    # Ejemplos con Números 
+    nuevo_tema("Enteros")
+    w = 105
+    x = 12345678987654321
+    y = -58
+    z = 0b0011011 #el prefijo "0b" (cero be) denota que el numero es binario.
+    h = 0xFF #el prefijo "0x" (cero equis) denota que el numero esta en hexadecimal.
+
+    print(w, type(w))
+    print(x, type(x))
+    print(y, type(y))
+    print(z, type(z))
+    print(h, type(h))
+
+    print("--------------------------")
+    nuevo_tema("Flotantes")
+    x = 1234.56
+    print(x, type(x))
+    y = -0.2584
+    print(y, type(y))
+
+    print("--------------------------")
+    nuevo_tema("Número complejos")
+    x = -46j
+    y = 12 + 45j
+    z = 2j 
+    c = y + z
+    print(x, type(x))
+    print(y, type(y))
+    print(z, type(z))
+    print(c, type(c))
+
+    print("--------------------------")
+    nuevo_tema("Booleanos")
+    x = True
+    print(x, type(x))
+
