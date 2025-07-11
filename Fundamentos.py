@@ -161,6 +161,29 @@ if __name__ == "__main__":
     #print(tupla)
     tupla=(25, "Tupla", 1 + 10j, "Otro")
     print(tupla)
+    
+    print("--------------------------")
+    nuevo_tema("Sets") #Conjuntos
+    conjunto={10, 20, 30, 40, 50, 20}# muestra un error por duplicar el 20, aún así imprime el conjunto.
+    print(conjunto)
+    #print(conjunto[1]) no estan iterados (ordenados) es un conjunto desordenado ('set' object is not subscriptable).
+    conjunto.add(80) #Añadir elementos
+    print(conjunto)
+    print(50 in conjunto)#para saber si existe un elemeto específico en el set, salida:Tueo or False.
+
+    print("--------------------------")
+    nuevo_tema("Diccionarios")
+    diccionario={"Nombre": "Conrado", 
+                 "Edad": 41,
+                 "Teléfono":12345789,
+                 90:4+3j}
+    print(diccionario)
+    print(diccionario["Teléfono"])
+    print(diccionario[90])
+
+
+
+
 
 
 
