@@ -161,7 +161,7 @@ if __name__ == "__main__":
     #print(tupla)
     tupla=(25, "Tupla", 1 + 10j, "Otro")
     print(tupla)
-    
+
     print("--------------------------")
     nuevo_tema("Sets") #Conjuntos
     conjunto={10, 20, 30, 40, 50, 20}# muestra un error por duplicar el 20, aún así imprime el conjunto.
@@ -180,6 +180,34 @@ if __name__ == "__main__":
     print(diccionario)
     print(diccionario["Teléfono"])
     print(diccionario[90])
+
+    print("--------------------------")
+    nuevo_tema("Cadenas")
+    cadena1="Esto es una cadena"
+    cadena2= 'Esto es una cadena'
+    cadena_multilinea='''Esto es una cadena con
+    de varias líneas con tabuladores 
+    y saltos
+    de 
+    línea'''
+    print(cadena1, type(cadena1))
+    print(cadena2, type(cadena2))
+    print(cadena_multilinea, type(cadena_multilinea))
+
+    cadena3=("Hola") *5
+    print(cadena3)
+    cadena3=("Hola\n") *5
+    print(cadena3)
+    cadena3=("Hola\t") *5
+    print(cadena3)
+    print(cadena1[2])
+    print(cadena1[2:10])
+    print(cadena1[ :5])
+    print(cadena1[5:])
+    print(cadena1[ :-5])
+    print(cadena1[5:-5])
+    print(cadena1[::-1])   
+    
 
 
 
