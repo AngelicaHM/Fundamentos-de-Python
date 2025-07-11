@@ -89,3 +89,10 @@ if __name__ == "__main__":
     print("Operador 'menor o igual que', 7 <= 10:", 7 <= 10)
     print("Operador 'mayor que', 7 > 10:", 7 > 10)
     print("Operador 'mayor o igual que', 7 >= 10:", 7 >= 10)
+
+    #Ejemplo de variable dinámica
+    mensaje="Hola bebe"
+    print(mensaje)
+    mensaje=10
+    print(mensaje)
+    
