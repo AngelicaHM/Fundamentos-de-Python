@@ -133,4 +133,34 @@ if __name__ == "__main__":
     nuevo_tema("Booleanos")
     x = True
     print(x, type(x))
+    y = False
+    print(y, type(y))
+
+    print("--------------------------")
+    nuevo_tema("Listas")
+    lista=[10, 20.5, "Lista de Python"]
+    print(lista)
+    print(lista[0])
+    print(lista[1])
+    print(lista[2])
+    lista[0]="Hola"
+    lista.append(34)
+    lista.insert(0,1.1)
+    print(lista)
+    lista.append([3,4,5,6,7,8])
+    print(lista)
+    print(lista[5])
+    print(lista[5][4])
+
+    print("--------------------------")
+    nuevo_tema("Tupla")
+    tupla=(25, "Tupla", 1+10j)
+    print(tupla)
+    print(tupla[1])
+    #tupla[0]=0   'tuple' object does not support item assignment, no es un peración valida para tuplas.
+    #print(tupla)
+    tupla=(25, "Tupla", 1 + 10j, "Otro")
+    print(tupla)
+
+
 
