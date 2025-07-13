@@ -33,5 +33,6 @@ for child in marcoPrincipal.winfo_children():
     child.grid_configure(padx=5, pady=5)
 
 txtPies.focus()
-raiz.bind('<Return>, calcular')
+raiz.bind('<Return>', calcular)
+
 raiz.mainloop()
