@@ -1,15 +1,15 @@
 #Crear una función para el comando print, ya que es repetitivo.
 def nuevo_tema(tema:str): #En esta función se indido el tipo de variable con fines informativos, ya que no la está definiendo como tal. Esto se concidera buenas prácticas de programación, nada más.
     print("\n----- ", tema, " -----\n") # forma 1 con caracteres de escape.
-def nuevoTema2(tema):
-    print("\n----- "  + tema +  " -----\n") # forma 2 concatenando.
-def nuevoTema3(tema):
-    print(f"\n-----   {tema}  -----\n") # forma 3 con formato (con más estilo Python)también llamada "cadena formateada".
-def nuevoTema4(tema):
-    print(f"\n-----   {tema}  -----\n")
-    llave_a = "{" #Se pueden crear variables para signos que podrían confuncdirse con los comandos del lenguaje.
-    llave_c = "}" #Por ejemplo llaves de apertura y de cierre.
-    print(f"\n----- {llave_a} {tema} {llave_c} -----\n")
+#def nuevo_tema1(tema):
+    #print("\n----- "  + tema +  " -----\n") # forma 2 concatenando.
+#def nuevo_tema2(tema):
+    #print(f"\n-----   {tema}  -----\n") # forma 3 con formato (con más estilo Python)también llamada "cadena formateada".
+#def nuevo_tema3(tema):
+    #print(f"\n-----   {tema}  -----\n")
+    #llave_a = "{" #Se pueden crear variables para signos que podrían confuncdirse con los comandos del lenguaje.
+    #llave_c = "}" #Por ejemplo llaves de apertura y de cierre.
+    #print(f"\n----- {llave_a} {tema} {llave_c} -----\n")
 
 if __name__ == "__main__":# esto se utiliza para indicar qué línea inicia primero, ya que Python no usa main. No es obligatorio para todo solo cuando es necesario indicar un orden de inicio.
 
@@ -51,10 +51,10 @@ if __name__ == "__main__":# esto se utiliza para indicar qué línea inicia prim
 
 #06/06/2025 VARIABLES
 #Crear Funciones
-nuevo_tema("Operadores aritméticos") 
-nuevoTema2("Operadores aritméticos") 
-nuevoTema3("Operadores aritméticos") 
-nuevoTema4("Operadores aritméticos") 
+#nuevo_tema("Operadores aritméticos") 
+#nuevo_tema1("Operadores aritméticos") 
+#nuevo_tema2("Operadores aritméticos") 
+#nuevo_tema3("Operadores aritméticos") 
 if __name__ == "__main__":
 
     nuevo_tema("Operadores aritméticos") #llamamos a la función "nuevoTema"
