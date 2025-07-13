@@ -1,0 +1,15 @@
+import turtle
+import time
+
+for i in range (10):
+    turtle.forward(20) 
+    time.sleep(1)
+    turtle.right(0)
+    turtle.penup()
+    turtle.setx(30)                           
+    turtle.sety(0)
+    turtle.pendown() 
+    turtle.forward(20)
+
+    
+
